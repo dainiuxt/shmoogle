@@ -1,5 +1,9 @@
 body * {
-	color: #aaa;
+	color: #666;
+}
+
+#main {
+	min-height: 100vh;
 }
 
 /* Apps icon */
@@ -28,6 +32,10 @@ body * {
 
 .form-control {
 	border: none;
+}
+
+.btn {
+	background-color: #ddd;
 }
 
 /* Santa's little helper... */
