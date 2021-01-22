@@ -1,3 +1,36 @@
-h1 {
-	color: red;
+body * {
+	color: #aaa;
+}
+
+/* Apps icon */
+.apps {
+	height: 32px;
+	fill: grey;
+}
+/* Profile icon */
+.profile {
+	border: 0;
+	border-radius: 50%;
+}
+.prof-wrapper {
+	padding-left: 10px;
+}
+
+/* Search field input */
+.search {
+	border: solid 1px #aaa;
+}
+
+.input-group-text {
+	border: none;
+	background: transparent;
+}
+
+.form-control {
+	border: none;
+}
+
+/* Santa's little helper... */
+.red {
+	border: solid 3px red;
 }
