@@ -38,7 +38,15 @@ body * {
 	background-color: #ddd;
 }
 
-/* Santa's little helper... */
-.red {
-	border: solid 3px red;
+input:focus, input.form-control:focus {
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
 }
+
+/* Santa's little helper... */
+/*.red {
+	border: solid 3px red;
+}*/
